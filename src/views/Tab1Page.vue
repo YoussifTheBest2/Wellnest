@@ -14,7 +14,7 @@
 
             <ion-col>
               <div class="img-container">
-                <img src="/public/img4.png" class="mainpageimage" alt="" />
+                <img src="/public/newlogo.png" class="mainpageimage" alt="" />
               </div>
             </ion-col>
             <ion-col>
@@ -32,6 +32,7 @@
       <ion-grid>
         <ion-row>
           <ion-col>
+            <a style="display: block; text-decoration: none; color: inherit;" href="./physicalhealth">
             <ion-card class="card-categories">
               <ion-card-header>
                 <img src="/public/img1.png" alt="" />
@@ -42,17 +43,21 @@
                 </center>
               </ion-card-content>
             </ion-card>
+          </a>
           </ion-col>
 
           <ion-col>
-            <ion-card class="card-categories">
-              <ion-card-header>
-                <img src="/public/img2.png" alt="" />
-              </ion-card-header>
-              <ion-card-content>
-                <center><ion-card-title>Mental Health</ion-card-title></center>
-              </ion-card-content>
-            </ion-card>
+            
+
+              <ion-card class="card-categories">
+                <ion-card-header>
+                  <img src="/public/img2.png" alt="" />
+                </ion-card-header>
+                <ion-card-content>
+                  <center><ion-card-title>Mental Health</ion-card-title></center>
+                </ion-card-content>
+              </ion-card>
+            
           </ion-col>
         </ion-row>
 
@@ -151,9 +156,11 @@ import ExploreContainer from "@/components/ExploreContainer.vue";
   min-height: 14rem;
 }
 
-.mainpageimg {
-  width: 6rem;
-  height: 6rem;
-  border: black solid none;
+
+.img-container img{
+  width: 9rem;
+  height: 9rem;
+  border: #b7a87c solid 2px;
+  border-radius: 30%;
 }
 </style>
